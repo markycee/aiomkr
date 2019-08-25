@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "OpenDTG AIO MKR Barebones",
+      "maintainer": "OpenDTG",
+      "websiteURL": "https://www.opendtg.com",
+      "email" : "andy@opendtg.com",
+      "platforms":
+      [
+        {
+          "name": "OpenDTG AIO MKR Boards",
+          "architecture": "samd",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/markycee/aiomkr/master/AIOMKR-v2.00.zip",
+          "archiveFileName": "AIOMKR-v2.00.zip",
+          "checksum": "SHA-256:33800b8b42ba410cbbdc68d7c3f2b4abcbbea10204e5da1b137de411a71de2b7",
+          "size": "1157613",
+          "boards": [
+            {
+              "name": "AIO MKR Barebones"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
